@@ -1,0 +1,159 @@
+* {margin: 0px;
+font-family: sans-serif;}
+
+.box {width: 1150px;
+height: 6000px;
+background-color: white;
+margin: auto;}
+
+.ll { display: flex;
+justify-content: center;
+padding-top: 20px;}
+
+.gog {background-color: #F1DFD5;
+height: 500px;}
+
+.kp {display: flex;
+align-items: center;
+justify-content: center;
+gap: 100px;
+padding: 40px;
+}
+.vev {width: 250px;
+height: 180px;
+background-color: white;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+padding: 20px;
+border: 2px solid black;
+margin-top: 20px;}
+
+.vev2 {display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;}
+
+.divlink {}
+
+.RED {display: flex;
+flex-direction: column;
+row-gap: 15px;}
+
+.ledi {display: flex;
+justify-content: center;
+align-items: center;
+gap: 160px;
+margin-top: 70px;}
+
+.ledi2 {display: flex;
+justify-content: center;
+align-items: center;
+gap: 160px;
+margin-top: 70px;
+flex-direction: row-reverse;}
+
+.pop1 {display: flex;
+flex-direction: column;
+}
+.dark {display: flex;
+justify-content: center;
+align-items: center;
+gap: 120px;
+background-color: #88C9FD80;
+padding: 30px;
+margin-top: 70px;}
+
+.kel {display: flex;
+flex-direction: column;
+row-gap: 12px;}
+
+.kel2 {display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+margin-top: 70px;}
+@media (max-width: 768px) {
+
+  .box {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .gog {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .ll img {
+    width: 100% ;
+  }
+
+  h1 {
+    font-size: 24px ;
+  }
+
+  p {
+    width: 100% ;
+    margin-left: 0 ;
+    font-size: 14px ;
+  }
+
+  .lol img {
+    width: 180px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    display: block;
+  }
+
+  .kp {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .vev2 {
+    flex-direction: column;
+  }
+
+  .vev {
+    width: 90%;
+    height: auto;
+  }
+
+  .ledi,
+  .ledi2 {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .ledi2 {
+    flex-direction: column; 
+  }
+
+  .divlink img {
+    width: 100% ;
+  }
+
+  .dark {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .kel2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .kel p {
+    width: 100% ;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
